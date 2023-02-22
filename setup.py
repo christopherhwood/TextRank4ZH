@@ -11,7 +11,7 @@ setup(
     long_description=LONGDOC,
     author='Letian Sun',
     author_email='sunlt1699@gmail.com',
-    url='https://github.com/someus/TextRank4ZH',
+    url='https://github.com/christopherhwood/TextRank4ZH.git',
     license="MIT",
     classifiers=[
         'Intended Audience :: Developers',
@@ -27,7 +27,7 @@ setup(
         'Topic :: Text Processing :: Linguistic',
     ],
     keywords='NLP,Chinese,Keywords extraction, Abstract extraction',
-    install_requires=['jieba >= 0.35', 'numpy >= 1.7.1', 'networkx >= 1.9.1'],
+    install_requires=['jieba >= 0.35', 'numpy >= 1.7.1', 'networkx >= 3.0.0'],
     packages=['textrank4zh'],
     package_dir={'textrank4zh':'textrank4zh'},
     package_data={'textrank4zh':['*.txt',]},
